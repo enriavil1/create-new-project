@@ -7,6 +7,17 @@ then change username from line 32 for the username you want as a string EX. butt
 then change password from line 41 for the password you want as a string EX. button.send_keys(password) -> button.send_keys("the password you want")
 
 
+                                                        IMPORTANT INFORMATION!!!!     
+
+->Currently only working with chrome and safari 
+
+
+->Update line 36 of commmand.bash from /Users/enriavil1/Desktop/project/Python/automation/create.py $1 
+to the directory you put the python file in and add $1 at the end
+
+-> Update line 38 of command.bash from /Users/enriavil1/Desktop/project/Python/$1 to the directory you want to create your new folder at and add $1 at the end
+
+
 
 
 
