@@ -36,7 +36,6 @@ create(){
     sleep 2
     git_init https://github.com/${username}/${1}.git
 
-
 }
 
     
