@@ -3,16 +3,14 @@
 
 
 git_init(){
-    echo "${name}">> README.md
 
+    echo "READ" >> README.md
     git init
-
-    sleep 3
-
     git add README.md
-    git commit -m "first commit"
 
-    sleep 2
+    git commit -m "first commit"
+    
+    sleep 1
     git remote add origin $1
     git push -u origin master
 }
@@ -23,8 +21,6 @@ git_init(){
 create(){
 
     cd
-
-    name = $1
 
     read -p "type your username: " username
     read -p "typer your password:" password
@@ -37,10 +33,8 @@ create(){
 
     cd /Users/enriavil1/Desktop/project/Python/$1
 
-    sleep 3
-
-
-    git_init https://github.com/enriavil1/${1}.git
+    sleep 2
+    git_init https://github.com/${username}/${1}.git
 
 
 }
