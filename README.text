@@ -1,6 +1,6 @@
 How to set up a constant for username and password!
 
-1.) Go to command.bash and delete the lines from 29 to 33
+1.) Go to command.bash and delete the lines from 25 to 29
 
 2.) Go to create.py and delete lines 23 and 24, 
 then change username from line 32 for the username you want as a string EX. button.send_keys(username) -> button.send_keys("the username you want")
@@ -12,11 +12,12 @@ then change password from line 41 for the password you want as a string EX. butt
 ->Currently only working with chrome and safari 
 
 
-->Update line 36 of commmand.bash from /Users/enriavil1/Desktop/project/Python/automation/create.py $1 
+->Update line 32 of commmand.bash from /Users/enriavil1/Desktop/project/Python/automation/create.py $1 
 to the directory you put the python file in and add $1 at the end
 
--> Update line 38 of command.bash from /Users/enriavil1/Desktop/project/Python/$1 to the directory you want to create your new folder at and add $1 at the end
+-> Update line 34 of command.bash from /Users/enriavil1/Desktop/project/Python/$1 to the directory you want to create your new folder at and add $1 at the end
 
+-> in line 37 change the ${username} to your github username if you take away lines 25 and 29
 
 
 
