@@ -1,0 +1,20 @@
+How to set up a constant for username and password!
+
+1.) Go to command.bash and delete the lines from 29 to 33
+
+2.) Go to create.py and delete lines 23 and 24, 
+then change username from line 32 for the username you want as a string EX. button.send_keys(username) -> button.send_keys("the username you want")
+then change password from line 41 for the password you want as a string EX. button.send_keys(password) -> button.send_keys("the password you want")
+
+
+
+
+
+
+
+
+
+
+
+
+
