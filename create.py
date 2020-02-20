@@ -59,12 +59,6 @@ def create():
     time.sleep(2)
     button= browser.find_element_by_xpath("//*[@id='new_repository']/div[3]/button")
     button.send_keys(enter_key)
-
-    #getting the remote
-    time.sleep(3)
-    remote_box= browser.find_elements_by_xpath("//*[@id='empty-setup-clone-url']")[0]
-    remote_url= remote_box.get_attribute("value")
-
     browser.close()
 
     
